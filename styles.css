@@ -15,10 +15,31 @@ h2 {
     font-size: 32px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited {
+    color: grey ;
+}
+
 .avatar {
     width: 200px;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
 }
 
 .info p {
@@ -38,12 +59,12 @@ h2 {
     margin: auto;
 }
 
-.social {
-    background: green;
-    /*padding: 15px; */
+/* .social {
+    background: green; */
+    /* padding: 15px; */
     /* padding: 15px 40px; */
     /* padding: 15px 40px 25px 30px; */
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-right: 20px;
     padding-bottom: 25px;
     padding-left: 30px;
@@ -52,4 +73,109 @@ h2 {
     border-bottom-style: dotted;
     border-top-width: 15px;
     border-right-color: blue;
+} */
+
+/* box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-eyllow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background:   #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    /* background: red; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.list   {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table  {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+/* .table tr:nth-child(even) {
+    background: red;
+} */
+
+.link-list  {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px; 
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+    
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;       
 }
